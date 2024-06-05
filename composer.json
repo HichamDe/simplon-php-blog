@@ -11,5 +11,12 @@
             "email": "89263522+HichamDe@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {
+        "seytar/php-router": "dev-1.0.x-stable"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
 }
