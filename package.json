@@ -1,0 +1,12 @@
+{
+  "name": "blogger-php",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"cd public/ && php -S localhost:3000"
+  },
+  "author": "",
+  "license": "ISC"
+}

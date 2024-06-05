@@ -1,0 +1,15 @@
+{
+    "name": "hp/blogger-php",
+    "autoload": {
+        "psr-4": {
+            "Hp\\BloggerPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "HICHAM IAMIRI",
+            "email": "89263522+HichamDe@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
