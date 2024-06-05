@@ -15,6 +15,12 @@ Route::get("/login",function(){
 
 });
 
+Route::get("/dashboard",function(){
+
+    require "./view/pages/dashboard.php";
+
+});
+
 Route::get("/sign-up",function(){
 
     echo "the router is working finsdfsdfse";

@@ -10,7 +10,7 @@
 <body class="bg-black text-white">
     <?php include './view/components/nav.php'; ?>
 
-    <div class="h-[80vh] flex justify-center items-center max-w-screen-xl mx-auto">
+    <div class="h-[80vh] center max-w-screen-xl mx-auto">
         <form class="w-1/2">
             <div class="mb-5">
                 <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
