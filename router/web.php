@@ -10,19 +10,26 @@ Router::bootstrap(function ($ex) {
 
 
 Route::get("/login",function(){
-
     require "./view/pages/login.php";
 
 });
 
-Route::get("/dashboard",function(){
+Route::post("/login",function(){
+    require "./app/controller/AuthController.php";
 
+});
+
+Route::get("/dashboard",function(){
     require "./view/pages/dashboard.php";
 
 });
 
-Route::get("/sign-up",function(){
+Route::get("/blog",function(){
+    require "./view/pages/blog.php";
 
+});
+
+Route::get("/sign-up",function(){
     echo "the router is working finsdfsdfse";
 
 });

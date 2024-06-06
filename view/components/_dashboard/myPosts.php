@@ -1,4 +1,4 @@
-<h1 class="text-white text-xl">My Posts</h1>
+<h1 class="text-white text-xl">/ My Posts</h1>
 
 
 <div class="relative overflow-x-auto shadow-md sm:rounded-lg mt-4">
@@ -34,7 +34,7 @@
                     06/05/2024
                 </td>
                 <td class="px-6 py-4">
-                    06/05/2024
+                    06/05/2024 
                 </td>
                 <td class="px-6 py-4">
                     <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">View</a>
