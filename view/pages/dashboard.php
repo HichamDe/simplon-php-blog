@@ -1,6 +1,18 @@
 <?php
 
 $sectionPath = '';
+$env = parse_ini_file('.env');
+$url = $env["APP_URL"];
+
+session_start();
+$isLogged = $_SESSION["isLoggedIn"];
+
+if (!$isLogged) {
+    header('Location: ' . $url . "/login");
+    exit;
+}
+
+
 
 ?>
 <!DOCTYPE html>
@@ -100,6 +112,7 @@ $sectionPath = '';
     const sections = [
         `<?php include "./view/components/_dashboard/myPosts.php"; ?>`,
         `<?php include "./view/components/_dashboard/browse.php"; ?>`,
+        `<?php include "./view/components/_dashboard/settings.php"; ?>`,
     ]
 
     const content = document.getElementById("content");

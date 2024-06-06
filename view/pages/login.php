@@ -1,3 +1,14 @@
+<?php
+
+
+session_start();
+
+if (isset($_SESSION["isLoggedIn"])) {
+    header('Location: ' . $url . "/dashboard");
+    exit;
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
